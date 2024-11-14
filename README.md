@@ -21,6 +21,7 @@ Code for DFST
 - scipy=1.7.3
 - h5py=3.7.0
 - opencv-python =4.7.0.72
+- need to updown the weights of ViT, and name is with "pytorch_model.bin".
 ## Usages
 
 ### Screen out salient regions and non-salient regions of images
