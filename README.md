@@ -45,9 +45,11 @@ Then a quality model will be trained.
 First you need to modify config paramters to make sure the database path is correct.
 Meta training  our model on IQA Dataset.
 ```
-MetaIQA_newload.py
+meta.py
 ```
-Then a quality model will be trained.(TID2013_KADID10K_4_1.pt)
+In meta.py, you can chose KADID or TID2013 to do meta-training, then, use the model to finetune on another. For example, chose TID2013 as meta-training dataset, and finetune on KADID.
+
+We give the optimizal method of the assistant model. If you want employ it on the IQA model, the net need to be change.
 
 Some available options:
 * `--dataset`: Meta training  dataset, support datasets: TID2013 |KADID10K| LIVE | CSIQ | .
