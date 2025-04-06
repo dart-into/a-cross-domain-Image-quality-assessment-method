@@ -1,6 +1,6 @@
-# DFST
+
 a blind image quality assessment method
-Code for DFST
+Code
 ![./Net](wholenet.jpg)
 
 ## Dataset
